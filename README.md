@@ -21,7 +21,7 @@ Python, Google Colab, YOLOv8, Ultralytics, OpenCV, Roboflow, Matplotlib
 
 ### 🚀 Model Training
 - Model: YOLOv8n
-- Epochs: 50, Img Size: 640, Batch: 16
+- Epochs: 30, Img Size: 640, Batch: 16
 - Platform: Google Colab T4 GPU
 - Best weights: `best.pt`
 
@@ -30,9 +30,6 @@ Python, Google Colab, YOLOv8, Ultralytics, OpenCV, Roboflow, Matplotlib
 - Recall: 0.843
 - mAP@0.5: 0.887
 - mAP@0.5:0.95: 0.634
-
-### 🔍 Inference
-Tested on unseen images and videos. The model detects multiple objects with bounding boxes and confidence scores.
 
 ### 📉 Error Analysis
 - Struggles with small/distant objects
